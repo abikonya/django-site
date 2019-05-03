@@ -1,0 +1,50 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Authorization</title>
+    <link rel="stylesheet" href="{% static "/css/main.css" %}">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,800,900&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            SIGN UP WITH
+        </h1>
+        <ul class="accounts">
+            <img src="{% static "/img/f_icon.png" %}" alt="Facebook">
+            <li>
+                <a href="#">FACEBOOK</a>
+            </li>
+            <li class="slash">
+                /
+            </li>
+            <img src="{% static "/img/g_icon.png" %}" alt="Google">
+            <li>
+                <a href="#">GOOGLE</a>
+            </li>
+        </ul>
+        <ul class="strips">
+            <li>
+                <hr class="stripe">
+            </li>
+            <li class="or">
+                or
+            </li>
+            <li>
+                <hr class="stripe">
+            </li>
+        </ul>
+        <form id='registartion' action="#" method="post">
+            <center>
+                <textarea class="name" name="firstname" id="registartion" cols="30" rows="10">First Name</textarea>
+                <textarea class="name" name="lastname" id="registartion" cols="30" rows="10">Last Name</textarea>
+                <textarea name="email" id="registration" cols="30" rows="10">Email</textarea>
+                <textarea name="password" id="registration" cols="30" rows="10">Password</textarea>
+                <textarea name="confirmpassword" id="registration" cols="30" rows="10">Confirm Password</textarea>
+            </center>
+        </form>
+    </div>
+</body>
+</html>
