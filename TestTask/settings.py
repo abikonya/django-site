@@ -25,7 +25,7 @@ SECRET_KEY = '6afc15#gvci4h)$fr6e6oiphxgw)yd^b%^^a7m8#xi!$lb!s)e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['damp-coast-17934.herokuapp.com',
+ALLOWED_HOSTS = ['enigmatic-reef-46197.herokuapp.com',
                  '127.0.0.1',
                  ]
 
@@ -72,7 +72,6 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'django.template.context_processors.request',
             ],
         },
     },
@@ -141,4 +140,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "test_site/templates"),
 ]
 
-SITE_ID = 1
+SITE_ID = 2
