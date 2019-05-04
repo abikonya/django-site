@@ -20,7 +20,7 @@ body {
 h1 {
     text-align: center;
     padding: 55px;
-    padding-bottom: 42px;
+    padding-bottom: 35px;
     margin: 0;
     font-size: 24px;
 }
@@ -77,16 +77,47 @@ img {
     font-size: 24px;
 }
 
-textarea {
+input {
     font-size: 24px;
-    height: 70px;
+    height: 55px;
     width: 525px;
     text-align: center;
-    height: 70px;
-    width: 525px;
     margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    padding-top: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
 }
 
-.name {
-    background: url(static/img/f_icon.png) no-repeat 50% 50%;
+.checkbox{
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 22px;
+    font-size: 24px;
+}
+
+form {
+    margin: 0;
+    margin-top: 12px;
+}
+
+button {
+    background: #01ab53;
+    color: #f2fffd;
+    height: 92px;
+    width: 525px;
+    box-shadow: 0;
+    border: 0;
+    font-size: 24px;
+    border-radius: 5px;
+
+}
+
+p {
+    text-align: left;
+    width: 525px;
+    margin: 0;
+    padding: 0;
 }
