@@ -38,10 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    # 'allauth',
-    # 'allauth.account',
-    # 'allauth.socialaccount',
-    # 'allauth.socialaccount.providers.google',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
     'test_site',
 ]
 
@@ -80,7 +80,8 @@ WSGI_APPLICATION = 'TestTask.wsgi.application'
 
 
 AUTHENTICATION_BACKENDS = (
-                              'django.contrib.auth.backends.ModelBackend',
+                              # 'django.contrib.auth.backends.ModelBackend',
+                              'allauth.account.auth_backends.AuthenticationBackend',
 )
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
