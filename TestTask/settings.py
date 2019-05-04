@@ -83,6 +83,7 @@ WSGI_APPLICATION = 'TestTask.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
                               'django.contrib.auth.backends.ModelBackend',
+                              'allauth.account.auth_backends.AuthenticationBackend',
 )
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
