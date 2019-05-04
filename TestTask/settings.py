@@ -25,7 +25,9 @@ SECRET_KEY = '6afc15#gvci4h)$fr6e6oiphxgw)yd^b%^^a7m8#xi!$lb!s)e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['damp-coast-17934.herokuapp.com',]
+ALLOWED_HOSTS = ['damp-coast-17934.herokuapp.com',
+                 '127.0.0.1',
+                 ]
 
 
 # Application definition
@@ -80,8 +82,7 @@ WSGI_APPLICATION = 'TestTask.wsgi.application'
 
 
 AUTHENTICATION_BACKENDS = (
-                              # 'django.contrib.auth.backends.ModelBackend',
-                              'allauth.account.auth_backends.AuthenticationBackend',
+                              'django.contrib.auth.backends.ModelBackend',
 )
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
