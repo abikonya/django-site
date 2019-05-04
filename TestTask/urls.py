@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('test_site.urls')),
     url(r'^accounts/', include('allauth.urls')),
-    url(r'^/accounts/profile/#', views.success)
+    url(r'^accounts/profile/#', views.success)
 ]
