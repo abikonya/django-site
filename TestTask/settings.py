@@ -25,7 +25,7 @@ SECRET_KEY = '6afc15#gvci4h)$fr6e6oiphxgw)yd^b%^^a7m8#xi!$lb!s)e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['enigmatic-reef-46197.herokuapp.com',
+ALLOWED_HOSTS = ['test-task052019.herokuapp.com',
                  '127.0.0.1',
                  ]
 
