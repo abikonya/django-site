@@ -18,7 +18,7 @@
         <ul class="accounts">
             <img src="{% static "/img/f_icon.png" %}" alt="Facebook">
             <li>
-                <a href="#">FACEBOOK</a>
+                <a href="{% provider_login_url "facebook" method="oauth2" %}">FACEBOOK</a>
             </li>
             <li class="slash">
                 /
