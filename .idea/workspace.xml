@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="768796c5-7b59-41dd-b81a-7c4e3d253c12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="768796c5-7b59-41dd-b81a-7c4e3d253c12" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestTask/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="151" column="18" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
+            <state relative-caret-position="511">
+              <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
               <folding>
                 <element signature="e#0#305#1" />
                 <element signature="e#307#316#0" expanded="true" />
@@ -154,7 +151,7 @@
       <updated>1557039883396</updated>
       <workItem from="1557039886535" duration="614000" />
       <workItem from="1557040519001" duration="1685000" />
-      <workItem from="1557120691110" duration="641000" />
+      <workItem from="1557120691110" duration="963000" />
     </task>
     <task id="LOCAL-00001" summary="update django-allauth">
       <created>1557041121507</created>
@@ -177,11 +174,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557042033076</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="upgrade requirements">
+      <created>1557121514735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557121514735</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add login redirected url">
+      <created>1557121706690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557121706690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2940000" />
+    <option name="totallyTimeSpent" value="3262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -216,7 +227,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update django-allauth" />
     <MESSAGE value="upgrade requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade requirements" />
+    <MESSAGE value="add login redirected url" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login redirected url" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_site/views.py">
@@ -238,8 +250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestTask/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="151" column="18" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
+        <state relative-caret-position="511">
+          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
           <folding>
             <element signature="e#0#305#1" />
             <element signature="e#307#316#0" expanded="true" />
