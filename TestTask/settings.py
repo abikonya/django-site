@@ -147,3 +147,6 @@ DATABASES['default'].update(db_from_env)
 
 
 SITE_ID = 2
+
+
+LOGIN_REDIRECT_URL = 'succees/'
