@@ -90,12 +90,25 @@ input {
     vertical-align: middle;
 }
 
+.name {
+    background: url(/static/img/firstname.png) no-repeat;
+}
+
+.email {
+    background: url(/static/img/email.png) no-repeat;
+}
+
+.password {
+    background: url(/static/img/password.png) no-repeat;
+}
+
 .checkbox{
     height: 30px;
     width: 30px;
     padding: 0;
     margin: 22px;
     font-size: 24px;
+    color: grey;
 }
 
 form {
@@ -103,7 +116,7 @@ form {
     margin-top: 12px;
 }
 
-button {
+.reg {
     background: #01ab53;
     color: #f2fffd;
     height: 92px;
@@ -120,4 +133,32 @@ p {
     width: 525px;
     margin: 0;
     padding: 0;
+    color: grey;
+}
+
+.haveacc {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.acctxt {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.login {
+    border: solid #80adc0 2px;
+    background-color: white;
+    color: #80adc0;
+    width: 193px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-left: 45px;
 }
