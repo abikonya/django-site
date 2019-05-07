@@ -1,5 +1,5 @@
 {% load staticfiles %}
-{% load socialaccount %}
+{% load socialaccount %} {% providers_media_js %}
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -17,7 +17,7 @@
         <ul class="accounts">
             <img src="{% static "/img/f_icon.png" %}" alt="Facebook">
             <li>
-                <a href="#">FACEBOOK</a>
+                <a href="{% provider_login_url "facebook" method="js_sdk" %}">FACEBOOK</a>
             </li>
             <li class="slash">
                 /
