@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_site/templates/auth.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -214,7 +214,7 @@
       <workItem from="1557039886535" duration="614000" />
       <workItem from="1557040519001" duration="1685000" />
       <workItem from="1557120691110" duration="4551000" />
-      <workItem from="1557150428324" duration="2401000" />
+      <workItem from="1557150428324" duration="3341000" />
     </task>
     <task id="LOCAL-00001" summary="update django-allauth">
       <created>1557041121507</created>
@@ -307,11 +307,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557237406615</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add facebook login">
+      <created>1557237977548</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557237977548</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add facebook login">
+      <created>1557238268135</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557238268135</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9251000" />
+    <option name="totallyTimeSpent" value="10191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -403,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_site/templates/auth.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
