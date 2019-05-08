@@ -41,12 +41,14 @@
         </ul>
         <form id='registartion' action="/test-site/success/" method="post"> {% csrf_token %}
             <center>
-                <input class="name" name="firstname" placeholder="First Name" required></input>
-                <input class="name" name="lastname" placeholder="Last Name" required></input>
-                <input class="email" name="email" placeholder="Email" required></input>
-                <input class="password" name="password" placeholder="Password" type="password" required></input>
-                <input class="password" name="password" placeholder="Confirm Password" type="password" required></input>
-                <input class="checkbox" type="checkbox" value="agree" required>I'd like to receive PlacePass news and offers</input>
+                <input class="name" name="firstname" placeholder="First Name" required>
+                <input class="name" name="lastname" placeholder="Last Name" required>
+                <input class="email" name="email" placeholder="Email" type="email" required>
+                <input class="password"  id="pass" name="password" placeholder="Password" type="password" required>
+                <input class="password" id="" name="password" placeholder="Confirm Password" type="password" required> <br>
+                <div>
+                    <input class="checkbox" id="checkbox" type="checkbox" value="agree" required><label for="checkbox">I'd like to receive PlacePass news and offers</label>
+                </div>
                 <p>By signing up, I agree to the PlacePass <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
                 <button class="reg">REGISTER</button>
                 <ul class="haveacc">

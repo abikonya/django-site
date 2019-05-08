@@ -79,10 +79,10 @@ img {
 
 input {
     font-size: 24px;
-    height: 55px;
+    height: 70px;
     width: 525px;
     text-align: center;
-    margin: 10px;
+    margin: 7px;
     font-family: 'Nunito', sans-serif;
     padding: 0;
     padding-top: 10px;
@@ -97,17 +97,17 @@ input {
     background: url(/static/img/email.png) no-repeat;
 }
 
-.password {
+.password, .password_confirm {
     background: url(/static/img/password.png) no-repeat;
 }
 
 .checkbox{
+    position: relative;
+    right: 10px;
     height: 35px;
     width: 35px;
     padding: 0;
-    margin: 22px;
-    font-size: 24px;
-    color: grey;
+    margin: 0;
 }
 
 form {
@@ -124,13 +124,16 @@ form {
     border: 0;
     font-size: 24px;
     border-radius: 5px;
+    margin-top: 20px;
 
 }
 
 p {
+    font-size: 21px;
     text-align: left;
     width: 525px;
     margin: 0;
+    margin-top: 20px;
     padding: 0;
     color: grey;
 }
@@ -160,4 +163,20 @@ p {
     border-radius: 5px;
     font-size: 24px;
     margin-left: 45px;
+}
+
+label {
+    position: relative;
+    bottom: 5px;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 22px;
+}
+
+div {
+    width: 525px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
 }
