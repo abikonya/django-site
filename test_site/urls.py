@@ -7,5 +7,5 @@ from django.conf.urls import url
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name="auth.html")),
-    url(r'^success/', success),
+    url(r'^test-site/success/', success),
 ]
